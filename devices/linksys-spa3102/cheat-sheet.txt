@@ -1,0 +1,19 @@
+-- Cheat sheet for the Linksys SPA3102 --
+
+To use any of the codes below connect a phone to the phone jack, pick it up,
+and press the star (*) key four times.  Even if there is an reorder or dialtone
+it will dump you into an IVR where you can reset the phone, turn on the web
+server, and check the IP address.
+
+Code:       Result:
+110#        Reads back the unit's IP address
+7932#       Enables or disables web server configuration
+              - Says "enter a value followed by the pound key"
+              - Enter 1#
+              - Says "to save press 1, to review press 2"
+              - Enter 1 to save or 2 to hear the updated setting
+73738#      Resets the device to factory defaults
+              - Says "enter 1 to confirm, enter star to exit"
+              - Enter 1 to reset
+              - Says "option successful, please hangup to exit"
+              - Device restarts
